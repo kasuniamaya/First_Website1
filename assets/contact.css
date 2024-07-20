@@ -1,0 +1,89 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --primary-color: #FF0000;
+    --secondary-color: #FFFFFF;
+    --accent-color: #333333;
+    --highlight-color: #CCCCCC;
+  }
+  
+  body {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+  }
+  
+  .container {
+    margin: 25px 15%;
+    max-width: 1200px;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  h1, h2 {
+    color: var(--primary-color);
+  }
+  
+  .title{
+    margin-bottom: 50px;
+  }
+  p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .touch{
+    width: 400px;
+  }
+  .contact-form{
+    width: 500px;
+  }
+  
+  .contact-form .form-group label {
+    color: var(--accent-color);
+    font-weight: bold;
+  }
+  
+  .contact-form .form-control  {
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+  }
+  
+  .contact-form textarea.form-control {
+    resize: vertical;
+  }
+  
+  .contact-form button.btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button.btn:hover {
+    background-color: #FF4444; 
+  }
+  .btn-primary {
+    background-color: var(--primary-color) !important;
+    border: none !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--highlight-color) !important;
+  }
+  
+  
